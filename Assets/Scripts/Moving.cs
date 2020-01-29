@@ -23,7 +23,15 @@ public class Moving : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             print("Space");
-            rigidBody.AddRelativeForce(new Vector3(0,20,0));
+            rigidBody.AddRelativeForce(new Vector3(20,0,0));
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Rotate(Vector3.forward);
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.Rotate(Vector3.back);
         }
     }
 }

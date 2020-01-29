@@ -1,0 +1,5 @@
+/Library/StateCache/*
+/Library/PackageCache/*
+/Library/ShaderCache/*
+/Library/metadata/*
+/Logs/*
